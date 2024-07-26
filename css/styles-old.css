@@ -1,14 +1,3 @@
-
-.navigation .links:focus,
-.navigation .links:hover{
-    color: #404BBF;
-}
-
-.links-adr:focus,
-.links-adr:hover{
-    color: #404bbf ;
-}
-
 .page-title{
     font-size: 56px;
     color: #FFFF;
@@ -203,10 +192,6 @@
     display: block;
 }
 
-.address-list{
-    display: flex;
-    gap: 40px;
-}
 
 .subtitle.our-team{
     text-align: center;
