@@ -508,6 +508,7 @@ button{
     font-size: 36px;
     line-height: 40px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .parag{
@@ -532,6 +533,10 @@ button{
     .parag{
         max-width: 356px;
         font-weight: 500;
+    }
+
+    .subtitle{
+        text-align: start;
     }
 }
 
@@ -562,6 +567,7 @@ button{
     .parag{
         font-size: 16px;
         letter-spacing: 0.02em;
+        font-weight: 400;
     }
     .subtitle{
         font-size: 20px;
@@ -1139,6 +1145,7 @@ button{
     justify-content: center;
     fill: transparent;
     order: -1;
+    flex-shrink: 0;
 }
 
 @media screen and (min-width: 768px){
